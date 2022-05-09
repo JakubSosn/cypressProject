@@ -14,7 +14,7 @@ context('Entering selected pages tests', () => {
     it('test 2', () => {
       cy.visit('www.wp.pl');
       cy.url().should('contain', 'wp.pl'); 
-      cy.get('body > div > div > div > div > div > button:nth-child(2');
+      cy.get('body > div > div > div > div > div > button:nth-child(2').click();
     });
   })
 })
