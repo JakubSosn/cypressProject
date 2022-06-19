@@ -2,5 +2,16 @@
   "baseUrl": "https://www.google.com",
   "retries": 1,
   "viewportWidth": 1200,
-  "viewportHeight": 860
+  "viewportHeight": 860,
+  "env":{
+    "lang": "PL"
+  },
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportFilename": "[status]_[datetime]-[name]-report",
+    "timestamp": "isoDateTime",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  }
 }
